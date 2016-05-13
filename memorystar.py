@@ -1,3 +1,8 @@
+'''
+    This is a main file. Run it, please ;)
+    © DOCTOR_RABB
+'''
+
 from optparse import OptionParser
 from lib.graph import gt
 
