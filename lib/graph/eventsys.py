@@ -1,3 +1,5 @@
+# coding: utf8
+
 '''
     In this file we have events for GTK windows.
     © DOCTOR_RABB
