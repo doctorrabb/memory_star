@@ -1,3 +1,5 @@
+# coding: utf8
+
 '''
    This is a main data file. Here we have information about size of types and "binary start".
    © DOCTOR_RABB
