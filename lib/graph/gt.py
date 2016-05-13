@@ -1,3 +1,5 @@
+# coding: utf8
+
 '''
     GTK interface module.
     © DOCTOR_RABB
