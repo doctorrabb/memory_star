@@ -5,7 +5,7 @@
 import pygtk
 pygtk.require ('2.0')
 import gtk
-from lib.graph import eventsys
+from lib.graph.eventsys import *
 
 
 class MainWindow:
