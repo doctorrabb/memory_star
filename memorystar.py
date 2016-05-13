@@ -7,7 +7,11 @@
 '''
 
 from optparse import OptionParser
-from lib.graph import gt
+try:
+    from lib.graph import gt
+except ImportError: 
+    print 'For using GTK install PyGTK!'
+    
 from sys import argv
 
 from lib.memwork.process_debugger import ProcessDebugger
