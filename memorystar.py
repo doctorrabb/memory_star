@@ -12,7 +12,7 @@ try:
 except ImportError: 
     print 'For using GTK install PyGTK!'
     
-from sys import argv
+from sys import argv, exit as ex
 
 from lib.memwork.process_debugger import ProcessDebugger
 
@@ -20,6 +20,7 @@ def main ():
     
     if len (argv) < 4:
         print 'Use: memeorystar.py <value> <type> <pid>'
+        ex (-1)
     
     op = OptionParser ('memorystar.py <value> <type> <pid>')
     op.add_option ('-G', '--graph', default=False, action='store_true', dest='graph', help='if you want to use GTK interface use this option')
