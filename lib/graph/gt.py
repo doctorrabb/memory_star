@@ -1,5 +1,6 @@
 '''
-    GTK interface module
+    GTK interface module.
+    © DOCTOR_RABB
 '''
 
 import pygtk
