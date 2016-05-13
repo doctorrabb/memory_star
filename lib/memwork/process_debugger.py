@@ -1,3 +1,5 @@
+# coding: utf8
+
 '''
     This is a main module. It was created for reading/writing data to/from process memory.
     © DOCTOR_RABB
