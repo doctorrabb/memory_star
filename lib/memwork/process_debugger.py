@@ -1,5 +1,6 @@
 '''
     This is a main module. It was created for reading/writing data to/from process memory.
+    © DOCTOR_RABB
 '''
 
 
@@ -14,9 +15,12 @@ class ProcessDebugger (object):
         self.process = self.debugger.addProcess (int (pid), False)
         self.addrs = list ()
 
+
+    # TODO: Search's address in process memory by value.
     def search_addr_by_value (self, value):
 
         for i in self.process.readMappings():
+            # Fuck, this is invalid bin :(
             if i.pathname in ['[vsyscall]', '[vdso]']:
                 continue
 
