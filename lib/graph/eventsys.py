@@ -1,3 +1,8 @@
+'''
+    In this file we have events for GTK windows.
+    © DOCTOR_RABB
+'''
+
 import pygtk
 pygtk.require ('2.0')
 import gtk
