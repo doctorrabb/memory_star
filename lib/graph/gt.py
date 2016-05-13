@@ -8,7 +8,7 @@ import gtk
 from lib.graph.eventsys import *
 
 
-class MainWindow:
+class MainWindow (object):
 
     def __init__ (self):
         '''
