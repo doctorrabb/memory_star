@@ -18,7 +18,7 @@ from lib.memwork.process_debugger import ProcessDebugger
 
 def main ():
     
-    if len (argv) < 3:
+    if len (argv) < 4:
         print 'Use: memeorystar.py <value> <type> <pid>'
     
     op = OptionParser ('memorystar.py <value> <type> <pid>')
