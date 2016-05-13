@@ -1,3 +1,6 @@
+# coding: utf8
+
+
 '''
     This is a main file. Run it, please ;)
     © DOCTOR_RABB
