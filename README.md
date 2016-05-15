@@ -1,1 +1,1 @@
-Memory Star - is a memory editor for process memory.
+Memory Star - is a editor for process memory.
